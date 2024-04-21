@@ -32,3 +32,30 @@ footer {
 .footer-links li {
   list-style: none;
 }
+
+@media (max-width: 767px) {
+  footer {
+    margin: 0 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-top .company-logo {
+    margin: 50px 0 40px;
+  }
+
+  .footer-info {
+    margin-left: 0;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+  }
+}

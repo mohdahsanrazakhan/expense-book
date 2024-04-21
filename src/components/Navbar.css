@@ -18,10 +18,43 @@ nav img {
 .nav-links {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .nav-links li {
   list-style: none;
   cursor: pointer;
   color: #64748b;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  nav {
+    padding: 20px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+
+  .nav-group {
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+    position: absolute;
+    top: 70px;
+    background: #e4f0f9;
+    width: 90%;
+  }
+
+  .nav-group.show {
+    display: flex;
+  }
 }

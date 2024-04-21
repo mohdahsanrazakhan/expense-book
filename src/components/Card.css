@@ -1,7 +1,7 @@
 .feature-cards {
-  width: 325px;
   margin: 10px;
   color: #64748b;
+  padding: 20px;
 }
 
 .cards-header {

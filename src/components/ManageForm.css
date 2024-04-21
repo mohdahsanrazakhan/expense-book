@@ -34,3 +34,9 @@
 .manage-form small {
   color: #64748b;
 }
+
+@media (max-width: 767px) {
+  .manage-form {
+    padding: 40px 20px;
+  }
+}

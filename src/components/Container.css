@@ -1,6 +1,19 @@
 .container-grid {
-  margin: 0 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .container-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-grid {
+    grid-template-columns: 1fr;
+  }  
 }
