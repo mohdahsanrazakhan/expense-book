@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 100px;
+  border-bottom: 2px solid #cbd5e1;
+}
+
+nav img {
+  margin-right: auto;
+}
+
+.nav-group {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  list-style: none;
+  cursor: pointer;
+  color: #64748b;
+}

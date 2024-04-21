@@ -1,0 +1,15 @@
+.feature-cards {
+  width: 325px;
+  margin: 10px;
+  color: #64748b;
+}
+
+.cards-header {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.cards-header img {
+  height: 20px;
+}

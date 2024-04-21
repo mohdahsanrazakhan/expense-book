@@ -1,0 +1,10 @@
+.integrations-container {
+  background-color: #e3f0f9;
+}
+
+
+
+.gradient-card {
+  background-color: linear-gradient(90deg, #f8f9fb, #f9f2e5);
+  margin: 0 0 14px 0;
+}

@@ -1,0 +1,36 @@
+.manage-form {
+  background-color: #E3F0F9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 28px 0 10px 0;
+}
+
+#form input {
+  background-color: #f8fafc;
+  border: 2px solid #cbd5e1;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #94a3b8;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #94a3b8;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #94a3b8;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #94a3b8;
+}
+
+.manage-form small {
+  color: #64748b;
+}

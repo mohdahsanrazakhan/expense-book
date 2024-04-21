@@ -1,0 +1,22 @@
+.customer-card {
+  width: 300px;
+  background: rgba(36, 128, 235, 0.1);
+  border: 1px solid rgba(36, 128, 235, 0.3);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.customer-card .message {
+  margin-bottom: 24px;
+}
+
+.customer-info {
+  display: flex;
+  gap: 10px;
+}
+
+.customer-info img {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+}

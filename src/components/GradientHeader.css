@@ -1,0 +1,8 @@
+h2 {
+  background: linear-gradient(90deg, #2A61EC, #1aabea);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 0 14px 0;
+  text-align: center;
+}
